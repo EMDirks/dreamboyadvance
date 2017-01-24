@@ -1,0 +1,71 @@
+body {
+   background-color: #ffffff;
+   padding: 0px;
+   margin: 0px;
+ }
+
+#sectionTop {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: URL("assets/glitches.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sectionHero {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+#imgLogo {
+  width: 50%;
+  display: block;
+  padding: 100pt 0pt 100pt 0pt;
+  margin: 0pt auto;
+}
+
+.divText {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#sectionProjectWrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.divProject {
+  margin: 10pt 20pt 30pt 20pt;
+  vertical-align: top;
+  display: inline-block;
+  width: 300pt;
+  height: 300pt;
+  background-color: black;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  font-size: 20pt;
+  line-height: 40pt;
+  padding: 7pt 20pt 0pt 20pt;
+  text-align: center;
+}
+
+@media only screen and (max-width: 500pt) {
+  p {
+    font-size: 12pt;
+    line-height: 24pt
+  }
+
+  .divProject {
+    margin: 5pt 10pt 25pt 10pt;
+    vertical-align: top;
+    display: inline-block;
+    width: 230pt;
+    height: 230pt;
+    background-color: black;
+  }
+}
